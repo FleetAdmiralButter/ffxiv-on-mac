@@ -37,9 +37,9 @@ if ( yesNo "Do you want to inject plugins via XIVLauncher or play with a Windows
     cp wine-dlls/ntdll.dll "$cxwinedir/ntdll.dll"
 fi
 printf "\n"
-if ( yesNo "Do you want to upgrade CrossOvers MoltenVK version to 1.1.5? This can improve performance by more than 25 percent" ); then
+if ( yesNo "Do you want to upgrade CrossOvers MoltenVK version to 1.1.4? This can improve performance on m1" ); then
     cp -n "$cxwinedir/../libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib.bak"
-    cp MoltenVK/1.1.5-dxvk/libMoltenVK.dylib "$cxwinedir/../libMoltenVK.dylib"
+    cp MoltenVK/1.1.4-dxvk/libMoltenVK.dylib "$cxwinedir/../libMoltenVK.dylib"
 fi
 printf "\nLaunching CrossTie, you can now follow the rest of the guide!\n"
 open "Final Fantasy XIV Online.tie"
