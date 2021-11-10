@@ -1,4 +1,4 @@
-# ffxiv-on-mac 
+# ffxiv-on-mac-m1
 
 1. [About](#about)
 1. [Installing](#installing)
@@ -10,7 +10,7 @@
 
 ffxiv-on-mac is a set of files and scripts for running [Final Fantasy XIV](http://www.finalfantasyxiv.com/) on Mac without the limitations of the native Mac launcher and all the customization available on a native Microsoft Windows install via CrossOver.
 
-There are also some MoltenVK versions patched for dxvk available to get more performace out of CrossOver (25% fps increase on most systems with MoltenVK 1.1.5 vs 1.1.3)
+There are also some MoltenVK versions patched for dxvk available to get more performace out of CrossOver (fps increase on most M1 systems with MoltenVK 1.1.4 vs 1.1.3)
 
 ## Installing
 
